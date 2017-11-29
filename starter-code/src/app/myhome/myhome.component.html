@@ -1,11 +1,9 @@
-<p>
-  my-home-component works!
-</p>
 
 <ul>
   <li *ngFor="let films of this.service.movies">
-  {{films.title}}
-  {{films.id}}
-  <img style="width:20%"[src]="films.poster" alt="images"></li>
-
-</ul>
+    <p>{{films.title}}</p>
+    <p>Room:{{films.room}}</p>
+    <p>Hour: {{films.hour}}</p>
+    <img style="width:20%"[src]="films.poster" alt="images">
+    <a [routerLink]="['../movie', films.id]"><button>movie</button></a>
+  </li>
