@@ -109,7 +109,7 @@ export class movieService {
       ]
     }
   ]
-  getMovies() {
+  getMovies(id:number, title:string, poster:string) {
     console.log(this.movies);
     return this.movies;
   };

@@ -7,7 +7,7 @@ import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { MyhomeComponent } from './myhome/myhome.component';
-import { MymovieComponent } from './mymovie/mymovie.component'
+import { MymovieComponent } from './mymovie/mymovie.component';
 
 
 @NgModule({
